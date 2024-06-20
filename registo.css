@@ -1,0 +1,53 @@
+.registo {
+    display: inline-block;
+    height: 490px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-60%, -47%);
+	padding: 10px;
+	border-radius:10px;
+    background-color: #228B22;
+}
+
+#registo_titulo {
+    text-align: center;
+    color: white;
+    font-family: 'Acme', 'sansserif';
+    font-size: 30px;
+}
+
+#labels_registo {
+    color: white;
+}
+
+.input_boxes {
+    float: right;
+}
+
+#submit {
+    position: relative;
+    left: 85px;
+    background-color: #44b530;
+    color: black;
+}
+
+.link_login , .p_login {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.link_login {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.link_login:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#tipo_user {
+    display: none;
+}

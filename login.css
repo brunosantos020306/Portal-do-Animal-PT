@@ -1,0 +1,70 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 420px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -47%);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #228B22;
+}
+
+#registo_titulo {
+  text-align: center;
+  color: white;
+  font-family: 'Acme', 'sansserif';
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.ct_nome_utilizador, .ct_password, .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#label_email, #label_password {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.input_boxes {
+  width: 80%;
+  padding: 5px;
+}
+
+#submit {
+  position: relative;
+  left: 5x;
+  background-color: #44b530;
+  color: black;
+}
+
+.link_login, .p_login {
+  text-align: center;
+  color: white;
+}
+
+.link_login {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.link_login:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.erro {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  display: none;
+  margin-bottom: 30px;
+  width: 100%;
+}

@@ -1,0 +1,84 @@
+body {
+  overflow: scroll;
+}
+
+.titulo, .subtitulo {
+  text-align: center;
+  color: #228B22;
+  font-family: 'Acme', sans-serif;
+}
+
+.unidade {
+  margin: 15px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+.unidade:hover {
+  border: 1px solid #777;
+}
+
+.unidade img {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: contain;
+}
+
+.imagem-carrinho {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.lista_compras {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nome, .preco, .carrinho_botao {
+  padding: 10px;
+  text-align: center;
+}
+
+.botao_carrinho, .botao_lixo {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.botao_carrinho {
+  position: relative;
+  left: 10px;
+  background-color: #228B22;
+}
+
+.botao_lixo {
+  background-color: red;
+  float: right;
+}
+
+#lixo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.nome {
+  color: #228B22;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+}
+
+#dinheiro {
+  color: green;
+}
+
+#erro_carrinho {
+  color: red;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}

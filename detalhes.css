@@ -1,0 +1,81 @@
+#main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 200px;
+  align-items: center;
+}
+
+#main > div {
+  text-align: center;
+}
+
+#titulo {
+  color: #228B22;
+}
+
+#img {
+   height: 300px;
+   display: flex;
+   aspect-ratio: 1 / 1;
+   width: 300px;
+   object-fit: contain;
+}
+
+#coluna_1 {
+    height: 300px;
+    width: 300px;
+    position: static;
+}
+
+#titulo {
+    font-size: 19px;
+}
+
+div.coluna_2 {
+    margin: 49px 30px;
+    padding: 10px;
+    height: 360px;
+    width: 530px;
+    background-color: #228B22;
+    color: white;
+}
+
+#dinheiro {
+    color: yellow;
+}
+
+.preco {
+    color: aliceblue;
+}
+
+.botao_retroceder {
+    background-color: #228B22;
+    color: white;
+    font-family: 'Acme', 'sansserif';
+    padding: 30px, 30px, 30px, 30px;
+    left: 250px;
+    border-radius: 5px;
+    width: 15vh;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.botao_carrinho {
+  padding: 30px, 30px, 30px, 30px;
+  border-radius: 5px;
+  width: 15vh;
+  cursor: pointer;
+  background-color: #228B22;
+  color: white;
+  left: 1000px;
+}
+
+@media screen and (max-width: 600px) {
+  div.coluna_2 {
+      position: relative;
+      top: -50px;
+      width: 100px;
+      height: 80px;
+  }
+}

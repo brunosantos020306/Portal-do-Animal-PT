@@ -1,0 +1,290 @@
+* {
+  font-family: 'Acme', 'sans-serif';
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+.fa-cart-shopping {
+color: white;
+}
+
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #228B22;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  transition: top 0.3s; 
+}
+
+#main {
+  padding-top: 130px;
+}
+
+.titulo {
+  font-family: 'Acme', 'sans-serif';
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+      text-align: center;
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #imagems_produtos {
+      position: relative;
+      top: -10px;
+      right: 130px;
+      size: 200px;
+  }
+}
+
+.quantidade {
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top: 20%;
+  transform: translate(-90%, -150%); 
+  padding: 3px 8px; 
+  font-size: 12px; 
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.link {
+  cursor: pointer;
+}
+
+#caixa_pesquisa {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+#pesquisa {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  border: none;
+  cursor: pointer;
+}
+
+#logo_carrinho {
+  position: absolute;
+  right: 80px;
+  top: 30px;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+#logo_logout {
+  position: absolute;
+  right: 3px;
+  top: 18px;
+  font-size: 40px;
+  cursor: pointer;
+  color: red;
+}
+
+#email_sessao {
+  position: absolute;
+  top: 35px;
+  right: 210px;
+  font-size: 15px;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  #email_sessao {
+    top: 50px;
+    right: 200px; 
+  }
+}
+
+@media (max-width: 768px) {
+  #email_sessao {
+    top: 70px;
+    right: 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  #email_sessao {
+    top: 90px;
+    right: 80px;
+  }
+}
+
+@media (max-width: 320px) {
+  #email_sessao {
+    top: 110px;
+    right: 50px; 
+  }
+}
+
+#cliente {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 50px;
+  color: white;
+}
+
+#logo_perfil {
+  position: absolute;
+  top: 35px;
+  right: 150px;
+  cursor: pointer;
+  font-size: 40px;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  flex: 1;
+}
+
+#footer {
+  position: relative;
+  clear: both;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  #footer {
+      position: absolute;
+      padding: 10px 0;
+      font-size: 14px;
+  }
+}
+  
+#texto_contactos {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#email, #bs, #texto_contactos {
+  margin-bottom: 3px;
+}
+
+#bs, #email, #texto_contactos {
+  font-size: 13px;
+}
+
+.botao_voltar {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #228B22;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao_voltar:hover {
+  background-color: #45a049;
+}
+
+.botao_lixo {
+  background-color: #FF6347;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.botao_lixo:hover {
+  background-color: #FF4500;
+}
+
+.lista_compras {
+  list-style: none;
+  padding: 0;
+}
+
+.item-carrinho {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.imagem-carrinho {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.form-remove {
+  margin-left: auto;
+}
+
+.fa-pen {
+  color: green;
+}
+
+#adicionar_produto , #adicionar_servico {
+  position: relative;
+  background-color:#228B22;
+  color: white;
+  left: 100px;
+}
+
+#texto_adicionar_produto , #texto_adicionar_servico {
+  color: #228B22;
+}
+
+#checkout {
+  position: relative;
+  background-color: #228B22;
+  color: white;
+  left: 30px;
+}
